@@ -2,6 +2,9 @@
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+	<div @click='skip'>
+		to about
+	</div>
   </div>
 </template>
 
@@ -13,6 +16,16 @@ export default {
   name: 'home',
   components: {
     HelloWorld
+  },
+  methods: {
+	  skip(){
+		  this.$router.push({
+			  name: 'about',
+			  params: {
+				  id: '1',
+			  }
+		  })
+	  }
   }
 }
 </script>
