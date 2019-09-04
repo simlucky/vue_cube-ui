@@ -3,6 +3,7 @@ import './cube-ui'
 import App from './App.vue'
 import router from 'router/router'
 import store from 'store/store'
+import 'lib-flexible/flexible.js'
 
 Vue.config.productionTip = false
 

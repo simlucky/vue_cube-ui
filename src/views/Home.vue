@@ -5,7 +5,10 @@
 	<div @click='skip'>
 		to about
 	</div>
-	<cube-button>sss</cube-button>
+	<cube-button :primary='true'>sss</cube-button>
+	<div class="test">
+		<span>我是红色</span>
+	</div>
   </div>
 </template>
 
@@ -30,3 +33,13 @@ export default {
   }
 }
 </script>
+
+<style scoped lang="less">
+	.test{
+		span{
+			color: red;
+			font-size: 0.5rem;
+		}
+	}
+	
+</style>

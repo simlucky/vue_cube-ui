@@ -8,11 +8,11 @@ import {
   Style,
   // basic
   Button,
-  Loading,
-  Tip,
+  // Loading,
+  // Tip,
   // Toolbar, // 这个组件会报错 未找到原因
-  TabBar,
-  TabPanels,
+  // TabBar,
+  // TabPanels,
   // // form
   // Checkbox,
   // CheckboxGroup,
@@ -50,11 +50,11 @@ import {
 } from 'cube-ui'
 
 Vue.use(Button)
-Vue.use(Loading)
-Vue.use(Tip)
+// Vue.use(Loading)
+// Vue.use(Tip)
 // Vue.use(Toolbar)
-Vue.use(TabBar)
-Vue.use(TabPanels)
+// Vue.use(TabBar)
+// Vue.use(TabPanels)
 // Vue.use(Checkbox)
 // Vue.use(CheckboxGroup)
 // Vue.use(Checker)
