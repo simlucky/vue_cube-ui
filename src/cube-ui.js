@@ -7,12 +7,12 @@ import {
   /* eslint-disable no-unused-vars */
   Style,
   // basic
-  // Button,
-  // Loading,
-  // Tip,
-  // Toolbar,
-  // TabBar,
-  // TabPanels,
+  Button,
+  Loading,
+  Tip,
+  // Toolbar, // 这个组件会报错 未找到原因
+  TabBar,
+  TabPanels,
   // // form
   // Checkbox,
   // CheckboxGroup,
@@ -49,12 +49,12 @@ import {
   // ScrollNavBar
 } from 'cube-ui'
 
-// Vue.use(Button)
-// Vue.use(Loading)
-// Vue.use(Tip)
+Vue.use(Button)
+Vue.use(Loading)
+Vue.use(Tip)
 // Vue.use(Toolbar)
-// Vue.use(TabBar)
-// Vue.use(TabPanels)
+Vue.use(TabBar)
+Vue.use(TabPanels)
 // Vue.use(Checkbox)
 // Vue.use(CheckboxGroup)
 // Vue.use(Checker)

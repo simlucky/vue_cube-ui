@@ -5,6 +5,7 @@
 	<div @click='skip'>
 		to about
 	</div>
+	<cube-button>sss</cube-button>
   </div>
 </template>
 
